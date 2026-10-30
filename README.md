@@ -2,7 +2,9 @@
 
 Big project: Patient-nurse-room assignment
 
-In this project, you are required to solve a healthcare scheduling problem involving the assignment of patients to rooms and nurses to rooms in a hospital. The goal is to develop an optimization model using mip that minimizes the total delay in patient admissions while adhering to a set of operational and resource constraints. This problem is inspired by the Integrated Healthcare Timetabling Competition 2024 (https://ihtc2024.github.io/).
+In this project, you are required to solve a healthcare scheduling problem involving the assignment of patients to rooms and nurses to rooms in a hospital. The goal is to develop an optimization model using mip that minimizes the total delay in patient admissions while adhering to a set of operational and resource constraints. 
+
+This problem is inspired by the Integrated Healthcare Timetabling Competition 2024 (https://ihtc2024.github.io/).
 
 The hospital operates with a set of patients, rooms, and nurses, each with specific characteristics. Patients are defined by their release date, indicating the earliest day they can be admitted, and a due date, specifying the latest allowable admission day. Patients also have a required length of stay. Rooms are characterized by fixed capacities that determine the maximum number of patients they can accommodate at any given time. Additionally, some patients may have incompatibilities with certain rooms, restricting their assignment.
 
